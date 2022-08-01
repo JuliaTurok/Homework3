@@ -101,3 +101,53 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+@media (max-width: 576px) {
+  h1{
+    font-size: 48px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  p, .yoga-title {
+  text-align: center;
+ }
+ p{
+   font-size: 14px;
+ }
+.yoga-title{
+   font-size: 36px;
+   margin-bottom: 1rem;
+}
+.img-weather{
+  margin-top: 4rem;
+}
+.images{
+  margin-bottom: 2rem;
+}
+.launch-app{
+  padding: 15px 10px;
+  font-size: 14px;
+}
+ .contact-link{
+  display: block;
+  text-align: center;
+    margin: 0 90px;
+}
+.about-paragraphs{
+  margin: 10px;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+.email-link{
+  font-size: 20px;
+ 
+}
+.h2-margin-top{
+  margin-top: 5rem;
+}
+ }
